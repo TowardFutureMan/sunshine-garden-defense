@@ -1,0 +1,180 @@
+{
+  "image": "snowpea-sway-blink-8f-v1-matted.png",
+  "width": 1536,
+  "height": 1024,
+  "columns": 4,
+  "rows": 2,
+  "frames": [
+    {
+      "index": 0,
+      "pose": "中间睁眼",
+      "rect": [
+        76,
+        66,
+        267,
+        395
+      ],
+      "pivot": [
+        208.7,
+        461
+      ],
+      "visibleBounds": [
+        76,
+        66,
+        343,
+        461
+      ]
+    },
+    {
+      "index": 1,
+      "pose": "左半睁眼",
+      "rect": [
+        462,
+        96,
+        254,
+        360
+      ],
+      "pivot": [
+        587.0,
+        456
+      ],
+      "visibleBounds": [
+        462,
+        96,
+        716,
+        456
+      ]
+    },
+    {
+      "index": 2,
+      "pose": "左极限睁眼",
+      "rect": [
+        818,
+        84,
+        251,
+        373
+      ],
+      "pivot": [
+        941.8,
+        457
+      ],
+      "visibleBounds": [
+        818,
+        84,
+        1069,
+        457
+      ]
+    },
+    {
+      "index": 3,
+      "pose": "回中·半眯(眨眼)",
+      "rect": [
+        1186,
+        75,
+        269,
+        385
+      ],
+      "pivot": [
+        1313.2,
+        460
+      ],
+      "visibleBounds": [
+        1186,
+        75,
+        1455,
+        460
+      ]
+    },
+    {
+      "index": 4,
+      "pose": "中间睁眼",
+      "rect": [
+        82,
+        560,
+        260,
+        377
+      ],
+      "pivot": [
+        210.3,
+        937
+      ],
+      "visibleBounds": [
+        82,
+        560,
+        342,
+        937
+      ]
+    },
+    {
+      "index": 5,
+      "pose": "右半·全闭(眨眼)",
+      "rect": [
+        456,
+        576,
+        262,
+        360
+      ],
+      "pivot": [
+        577.9,
+        936
+      ],
+      "visibleBounds": [
+        456,
+        576,
+        718,
+        936
+      ]
+    },
+    {
+      "index": 6,
+      "pose": "右极限睁眼",
+      "rect": [
+        816,
+        575,
+        262,
+        360
+      ],
+      "pivot": [
+        938.3,
+        935
+      ],
+      "visibleBounds": [
+        816,
+        575,
+        1078,
+        935
+      ]
+    },
+    {
+      "index": 7,
+      "pose": "回中睁眼",
+      "rect": [
+        1188,
+        575,
+        270,
+        362
+      ],
+      "pivot": [
+        1310.8,
+        937
+      ],
+      "visibleBounds": [
+        1188,
+        575,
+        1458,
+        937
+      ]
+    }
+  ],
+  "renderScale": 0.2041,
+  "playback": {
+    "fps": 7,
+    "mode": "hard-cut-no-crossfade",
+    "durationSeconds": 1.1428571
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "note": "按4列×2行等格切分，rect/pivot 均基于去背后真实 alpha（alpha>128）计算；pivot 为根部接地锚点（底叶簇质心 x + 角色底边 y）。原带棋盘格背景图为 snowpea-sway-blink-8f-v1.png，未编辑。"
+}

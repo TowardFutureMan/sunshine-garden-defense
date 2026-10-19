@@ -1,0 +1,186 @@
+{
+  "version": "v1",
+  "file": "walk.png",
+  "metadata": "walk-source.json",
+  "prompt": "generation-prompt.txt",
+  "size": [
+    1774,
+    887
+  ],
+  "alphaRange": [
+    0,
+    255
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "rect": [
+        0,
+        0,
+        443,
+        445
+      ],
+      "pivot": [
+        243.65,
+        444
+      ],
+      "visibleBounds": [
+        65,
+        10,
+        409,
+        444
+      ],
+      "boundaryPixelCount": 0
+    },
+    {
+      "index": 1,
+      "rect": [
+        443,
+        0,
+        444,
+        445
+      ],
+      "pivot": [
+        244.20000000000002,
+        442
+      ],
+      "visibleBounds": [
+        62,
+        8,
+        385,
+        442
+      ],
+      "boundaryPixelCount": 0
+    },
+    {
+      "index": 2,
+      "rect": [
+        887,
+        0,
+        443,
+        445
+      ],
+      "pivot": [
+        243.65,
+        442
+      ],
+      "visibleBounds": [
+        56,
+        7,
+        334,
+        442
+      ],
+      "boundaryPixelCount": 0
+    },
+    {
+      "index": 3,
+      "rect": [
+        1330,
+        0,
+        444,
+        445
+      ],
+      "pivot": [
+        244.20000000000002,
+        444
+      ],
+      "visibleBounds": [
+        45,
+        8,
+        375,
+        444
+      ],
+      "boundaryPixelCount": 0
+    },
+    {
+      "index": 4,
+      "rect": [
+        0,
+        445,
+        443,
+        442
+      ],
+      "pivot": [
+        243.65,
+        437
+      ],
+      "visibleBounds": [
+        58,
+        7,
+        396,
+        437
+      ],
+      "boundaryPixelCount": 0
+    },
+    {
+      "index": 5,
+      "rect": [
+        443,
+        445,
+        444,
+        442
+      ],
+      "pivot": [
+        244.20000000000002,
+        439
+      ],
+      "visibleBounds": [
+        62,
+        7,
+        388,
+        439
+      ],
+      "boundaryPixelCount": 0
+    },
+    {
+      "index": 6,
+      "rect": [
+        887,
+        445,
+        443,
+        442
+      ],
+      "pivot": [
+        243.65,
+        438
+      ],
+      "visibleBounds": [
+        56,
+        7,
+        355,
+        438
+      ],
+      "boundaryPixelCount": 0
+    },
+    {
+      "index": 7,
+      "rect": [
+        1330,
+        445,
+        444,
+        442
+      ],
+      "pivot": [
+        244.20000000000002,
+        438
+      ],
+      "visibleBounds": [
+        53,
+        7,
+        389,
+        438
+      ],
+      "boundaryPixelCount": 0
+    }
+  ],
+  "maxFrameWidth": 444,
+  "maxVisibleHeight": 436,
+  "sha256": "1b4e6bb56261bcdf47c82f96fa21153dbfb85eb3889ce41d1a3a5bfb48626ea7",
+  "playback": {
+    "fps": 8,
+    "frames": 8,
+    "mode": "source-frame-hard-cut"
+  },
+  "registration": "fixed per-cell horizontal pivot and sole baseline; no pose interpolation",
+  "status": "draft pending gait review"
+}

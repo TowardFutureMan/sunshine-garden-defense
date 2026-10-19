@@ -1,0 +1,91 @@
+{
+  "mode": "AI image generation",
+  "intent": "generate with style reference",
+  "reference": "assets/plants/peashooter-design-v2.png",
+  "assets": [
+    {
+      "name": "sunflower",
+      "output": "sunflower-design-v1.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "opaque_bounds": [
+        231,
+        101,
+        1085,
+        1203
+      ],
+      "edge_alpha_max": 1,
+      "verification": {
+        "subject": "one correct recognizable character",
+        "style": "matches rounded 3D painterly Peashooter reference",
+        "complete_visible_silhouette": true,
+        "no_ground_shadow": true,
+        "no_text_or_frame_sheet": true,
+        "note": "Faint alpha=1 noise at outer canvas edge; visible silhouette has safe margins, untouched original alpha preserved."
+      }
+    },
+    {
+      "name": "wallnut",
+      "output": "wallnut-design-v1.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "opaque_bounds": [
+        214,
+        143,
+        1057,
+        1133
+      ],
+      "edge_alpha_max": 1,
+      "verification": {
+        "subject": "one correct recognizable character",
+        "style": "matches rounded 3D painterly Peashooter reference",
+        "complete_visible_silhouette": true,
+        "no_ground_shadow": true,
+        "no_text_or_frame_sheet": true,
+        "note": "Faint alpha=1 noise at outer canvas edge; visible silhouette has safe margins, untouched original alpha preserved."
+      }
+    },
+    {
+      "name": "snowpea",
+      "output": "snowpea-design-v1.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "opaque_bounds": [
+        80,
+        65,
+        1201,
+        1174
+      ],
+      "edge_alpha_max": 1,
+      "verification": {
+        "subject": "one correct recognizable character",
+        "style": "matches rounded 3D painterly Peashooter reference",
+        "complete_visible_silhouette": true,
+        "no_ground_shadow": true,
+        "no_text_or_frame_sheet": true,
+        "note": "Faint alpha=1 noise at outer canvas edge; visible silhouette has safe margins, untouched original alpha preserved."
+      }
+    }
+  ]
+}

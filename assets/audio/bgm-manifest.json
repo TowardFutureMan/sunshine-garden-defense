@@ -1,0 +1,259 @@
+{
+  "title": "Garden Groove",
+  "composition": "original deterministic code composition; no external melody or audio samples",
+  "bpm": 96,
+  "bars": 16,
+  "seconds": 40.0,
+  "sample_rate": 44100,
+  "channels": 2,
+  "peak": 0.6750698748386078,
+  "rms": 0.1022639170847884,
+  "loop_boundary_delta": 0.0011456000550173415,
+  "melody_events": [
+    {
+      "bar": 0,
+      "beat": 0,
+      "midi": 76
+    },
+    {
+      "bar": 0,
+      "beat": 1.5,
+      "midi": 74
+    },
+    {
+      "bar": 0,
+      "beat": 2.5,
+      "midi": 71
+    },
+    {
+      "bar": 0,
+      "beat": 3.5,
+      "midi": 74
+    },
+    {
+      "bar": 1,
+      "beat": 0.5,
+      "midi": 79
+    },
+    {
+      "bar": 1,
+      "beat": 1.5,
+      "midi": 76
+    },
+    {
+      "bar": 1,
+      "beat": 2.5,
+      "midi": 74
+    },
+    {
+      "bar": 2,
+      "beat": 0,
+      "midi": 76
+    },
+    {
+      "bar": 2,
+      "beat": 1,
+      "midi": 72
+    },
+    {
+      "bar": 2,
+      "beat": 2.5,
+      "midi": 71
+    },
+    {
+      "bar": 3,
+      "beat": 0.5,
+      "midi": 69
+    },
+    {
+      "bar": 3,
+      "beat": 2,
+      "midi": 72
+    },
+    {
+      "bar": 3,
+      "beat": 3,
+      "midi": 76
+    },
+    {
+      "bar": 4,
+      "beat": 0,
+      "midi": 77
+    },
+    {
+      "bar": 4,
+      "beat": 1.5,
+      "midi": 76
+    },
+    {
+      "bar": 4,
+      "beat": 2.5,
+      "midi": 72
+    },
+    {
+      "bar": 5,
+      "beat": 0.5,
+      "midi": 74
+    },
+    {
+      "bar": 5,
+      "beat": 2,
+      "midi": 69
+    },
+    {
+      "bar": 5,
+      "beat": 3.5,
+      "midi": 72
+    },
+    {
+      "bar": 6,
+      "beat": 0,
+      "midi": 74
+    },
+    {
+      "bar": 6,
+      "beat": 1.5,
+      "midi": 71
+    },
+    {
+      "bar": 6,
+      "beat": 2.5,
+      "midi": 69
+    },
+    {
+      "bar": 7,
+      "beat": 0,
+      "midi": 67
+    },
+    {
+      "bar": 7,
+      "beat": 2,
+      "midi": 71
+    },
+    {
+      "bar": 7,
+      "beat": 3.25,
+      "midi": 74
+    },
+    {
+      "bar": 8,
+      "beat": 0.5,
+      "midi": 76
+    },
+    {
+      "bar": 8,
+      "beat": 2,
+      "midi": 79
+    },
+    {
+      "bar": 8,
+      "beat": 3.5,
+      "midi": 77
+    },
+    {
+      "bar": 9,
+      "beat": 0,
+      "midi": 75
+    },
+    {
+      "bar": 9,
+      "beat": 1.5,
+      "midi": 72
+    },
+    {
+      "bar": 9,
+      "beat": 3,
+      "midi": 68
+    },
+    {
+      "bar": 10,
+      "beat": 0.5,
+      "midi": 74
+    },
+    {
+      "bar": 10,
+      "beat": 2,
+      "midi": 71
+    },
+    {
+      "bar": 10,
+      "beat": 3.5,
+      "midi": 67
+    },
+    {
+      "bar": 11,
+      "beat": 0,
+      "midi": 73
+    },
+    {
+      "bar": 11,
+      "beat": 1.5,
+      "midi": 76
+    },
+    {
+      "bar": 11,
+      "beat": 3,
+      "midi": 72
+    },
+    {
+      "bar": 12,
+      "beat": 0,
+      "midi": 74
+    },
+    {
+      "bar": 12,
+      "beat": 1.5,
+      "midi": 77
+    },
+    {
+      "bar": 12,
+      "beat": 2.5,
+      "midi": 76
+    },
+    {
+      "bar": 13,
+      "beat": 0.5,
+      "midi": 74
+    },
+    {
+      "bar": 13,
+      "beat": 2,
+      "midi": 71
+    },
+    {
+      "bar": 13,
+      "beat": 3,
+      "midi": 69
+    },
+    {
+      "bar": 14,
+      "beat": 0,
+      "midi": 67
+    },
+    {
+      "bar": 14,
+      "beat": 1.5,
+      "midi": 71
+    },
+    {
+      "bar": 14,
+      "beat": 2.5,
+      "midi": 76
+    },
+    {
+      "bar": 15,
+      "beat": 0.5,
+      "midi": 74
+    },
+    {
+      "bar": 15,
+      "beat": 2,
+      "midi": 71
+    },
+    {
+      "bar": 15,
+      "beat": 3.25,
+      "midi": 67
+    }
+  ]
+}

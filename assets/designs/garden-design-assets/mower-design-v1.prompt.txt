@@ -1,0 +1,10 @@
+Use case: stylized-concept
+Asset type: single transparent PNG game prop design, NOT sprite sheet.
+Primary request: Design one small red push lawn mower used as a lawn-defense game's last-line rescue vehicle. Use attached Peashooter image ONLY as the exact visual STYLE reference; do not include any plant or copy its face.
+Subject: cute chunky rounded cherry-red mower deck, warm-gray compact engine on top, four dark rubber wheels with warm metal hubs (2–4 visible from camera), a slender dark tubular push handle extending backward and upward to the LEFT. Mower moves and points RIGHT. Credible one coherent machine, no human, no eyes or face, no scoop, no excavator, no forklift, no construction vehicle. The rear wheels sit at left, front at right. Main visible wheels share a level contact line.
+Style/medium: polished rounded 3D game illustration, subtly hand-painted matte surfaces, tactile painterly roughness, softened bevels, gentle ambient occlusion within the machine. Match reference's friendly proportions and rich material rendering.
+Camera: slightly elevated side three-quarter view, same side-on playable-game orientation as reference, not extreme top-down or isometric.
+Lighting: warm upper-left sunlight with soft highlights; no cast shadow on any ground.
+Composition: one entire mower centered on a square canvas about 1024x1024, all handle ends and all wheels fully visible, at least 12% transparent safe margin on all sides. Readable silhouette at small game size.
+Background: true transparent alpha. No floor, no garden, no backdrop, no checkerboard painted into image, no baked shadow, no pedestal.
+Avoid: text, logos, watermark, borders, labels, multiple views, multiple props, diagrams, thick black outlines, photorealistic harsh metal.

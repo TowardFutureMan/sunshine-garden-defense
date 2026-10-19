@@ -1,0 +1,22 @@
+{
+  "asset": "sun-design-v1.png",
+  "tool": "AI image generation",
+  "size": [
+    1254,
+    1254
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "transparent_corners": false,
+  "visible_bounds_alpha_128": [
+    112,
+    121,
+    1141,
+    1114
+  ],
+  "game_integration": "not applied; independent static master",
+  "prompt": "sun-design-v1.prompt.txt"
+}

@@ -1,0 +1,365 @@
+{
+  "version": "1.0.0",
+  "files": [
+    {
+      "path": "assets/audio/garden-groove-v1.wav",
+      "bytes": 7056044,
+      "sha256": "36cd841e517ad1664777d6ea14b9e3cc7c13f81a9e6db345d6ea44f3c7860cc7"
+    },
+    {
+      "path": "assets/backgrounds/garden-background-v1.png",
+      "bytes": 3038835,
+      "sha256": "6bfa1a4bb07ad3cd0ac890ef0e6b59c3be1fd683befe90166bc4ef05226ec38f"
+    },
+    {
+      "path": "assets/backgrounds/lawn.jpg",
+      "bytes": 401154,
+      "sha256": "be1415ab49b3b1731c860e700486d6e3354e9a062c032d4bc79d15129bd6bfcb"
+    },
+    {
+      "path": "assets/designs/garden-design-assets/cherrybomb-design-v1.png",
+      "bytes": 1235951,
+      "sha256": "4b42745ac368de7b33860ac7cdc99e674f966f6219279676eb1d1f90e0be2c4a"
+    },
+    {
+      "path": "assets/designs/garden-design-assets/contact-sheet.png",
+      "bytes": 768498,
+      "sha256": "ad8759cd8ed7a8ce24cd5f4f85c2d15f276a6182f71f8ef64ac3f3ba18047414"
+    },
+    {
+      "path": "assets/designs/garden-design-assets/mower-design-v1.png",
+      "bytes": 1001624,
+      "sha256": "fcd9bd7e391309819e6d98c63ba1a3cf0cbc335892e19d54d4a36fe4fde340bd"
+    },
+    {
+      "path": "assets/designs/garden-design-assets/peashooter-design-v2.png",
+      "bytes": 1101134,
+      "sha256": "c3cf832f62c93382759d5601599d216a3063a8cc2e9e77e76fdce715bb237b17"
+    },
+    {
+      "path": "assets/designs/garden-design-assets/potatomine-design-v1.png",
+      "bytes": 1119016,
+      "sha256": "1e8d36484858fd95243503e907755606b0948aa40fa953fa8bbe809515fec34d"
+    },
+    {
+      "path": "assets/designs/garden-design-assets/repeater-design-v1.png",
+      "bytes": 1212898,
+      "sha256": "d04b71de0cdd7152574db0237e660b1c7d5a51dc6637cc8380afd3f6e069813b"
+    },
+    {
+      "path": "assets/designs/garden-design-assets/shovel-design-v1.png",
+      "bytes": 782863,
+      "sha256": "8f9bc98ee9dbebd24b4d5c4c3db429f21f3a67d90a2896cd58d9d352343da24b"
+    },
+    {
+      "path": "assets/designs/garden-design-assets/snowpea-design-v1.png",
+      "bytes": 1208847,
+      "sha256": "11c0f05cf8545471fd7033d8e05d2b99a2857f013067fbb5a58b604db92c65cb"
+    },
+    {
+      "path": "assets/designs/garden-design-assets/sun-design-v1.png",
+      "bytes": 1460004,
+      "sha256": "bf92095621df81fd8b024fabae8ad0f2e50fdd4bf409692d59a604c5a638a541"
+    },
+    {
+      "path": "assets/designs/garden-design-assets/sunflower-design-v1.png",
+      "bytes": 1161079,
+      "sha256": "2147193d2260a5f677b95b230afef3d001a97ac129328fd9b04def5d9bd02df6"
+    },
+    {
+      "path": "assets/designs/garden-design-assets/wallnut-design-v1.png",
+      "bytes": 1202800,
+      "sha256": "0da2a626dc4730880eb0d50094ab8521d0f10c517871b87040d7ea556da86e93"
+    },
+    {
+      "path": "assets/plants/cherrybomb-idle-v1-8f/cherrybomb-sway-blink-8f-v1-matted.png",
+      "bytes": 1716778,
+      "sha256": "897e037a494560525e59d4342d8bee5f7edc79cf3e606ab9d1a9075024bf36f1"
+    },
+    {
+      "path": "assets/plants/cherrybomb-idle-v1-8f/cherrybomb-sway-blink-8f-v1.png",
+      "bytes": 1476675,
+      "sha256": "8b10ba78eb3563435d3fbe18db4625e4f354c372adae0b58747b349248945140"
+    },
+    {
+      "path": "assets/plants/cherrybomb-idle-v1-8f/pose-guide-cherrybomb-8f.png",
+      "bytes": 74403,
+      "sha256": "4802af68a8f704704d99c1452723cb1f50447b2fb4e043df912a04e14676f37b"
+    },
+    {
+      "path": "assets/plants/peashooter-design-v2.png",
+      "bytes": 1101134,
+      "sha256": "c3cf832f62c93382759d5601599d216a3063a8cc2e9e77e76fdce715bb237b17"
+    },
+    {
+      "path": "assets/plants/peashooter-idle-sheet-v1.png",
+      "bytes": 1520852,
+      "sha256": "52f90563fcc551b3d5441d82f69f8f02e1823e9e94535b34be4d22fc3f71f45d"
+    },
+    {
+      "path": "assets/plants/peashooter-idle-v2/peashooter-idle-sheet-v2.png",
+      "bytes": 1394378,
+      "sha256": "25ce9c80139821802fec1f3a2f435e15d5a929d8933fd356a675b0b8045157b0"
+    },
+    {
+      "path": "assets/plants/peashooter-idle-v2/preview.png",
+      "bytes": 346294,
+      "sha256": "c65352455732b32036cc7cab2d0591e4fff5dc9a1d8b7645511331613fd304a9"
+    },
+    {
+      "path": "assets/plants/peashooter-idle-v2/reference-peashooter-design-v2.png",
+      "bytes": 1101134,
+      "sha256": "c3cf832f62c93382759d5601599d216a3063a8cc2e9e77e76fdce715bb237b17"
+    },
+    {
+      "path": "assets/plants/peashooter-idle-v2/registered-frames-preview.png",
+      "bytes": 612486,
+      "sha256": "0b111dc9522eff8ba75fb6a0fec990d66a431a5fae3841cc1ce982c58e09b331"
+    },
+    {
+      "path": "assets/plants/peashooter-idle-v3-8f/peashooter-sway-blink-8f-v3.png",
+      "bytes": 1225218,
+      "sha256": "d4ab7c230d987d8e7fc06c1fc126798b0a93d4a626e694f60d38e19b60a47543"
+    },
+    {
+      "path": "assets/plants/peashooter-idle-v3-8f/pose-guide-8f.png",
+      "bytes": 49387,
+      "sha256": "7fb90a08df0fe479692d71ef4220d79466e764675fc430f9045d76ede7a72a42"
+    },
+    {
+      "path": "assets/plants/peashooter-idle-v3-8f/pose-guide-8f.svg",
+      "bytes": 11418,
+      "sha256": "9d2194e73e9d7145e3898831f728f3d80e7802af665ac45d4e58ca434bebdd28"
+    },
+    {
+      "path": "assets/plants/peashooter-idle-v3-8f/preview.png",
+      "bytes": 254242,
+      "sha256": "914dea12d9f02ce0939184e2179888d9a0eb5d048c57fc8e8ddadfb9bb70862a"
+    },
+    {
+      "path": "assets/plants/peashooter-idle-v3-8f/registered-frames-preview.png",
+      "bytes": 203856,
+      "sha256": "8303bf6976e1c617456b41935aa73998076563e8da9db3e83f6afb9bf14778ed"
+    },
+    {
+      "path": "assets/plants/plant-shooter-idle-raw-whitebg.png",
+      "bytes": 363570,
+      "sha256": "4997e1a49d83af83924a26d1b01c853810412a3dd8dddfbec32a56acfdb269fd"
+    },
+    {
+      "path": "assets/plants/plant-shooter-idle.png",
+      "bytes": 464091,
+      "sha256": "21dea354f41fda5f4c1c84cf7d5021cdc4097671cd24b6ef0169a70788888edd"
+    },
+    {
+      "path": "assets/plants/potatomine-idle-v1-8f/pose-guide-potatomine-8f.png",
+      "bytes": 30813,
+      "sha256": "3a3f71c96cdc536b9b33918aab8263d46e40a71d3015e149ed9a64942414b7d0"
+    },
+    {
+      "path": "assets/plants/potatomine-idle-v1-8f/potatomine-bounce-blink-8f-v1-matted.png",
+      "bytes": 1693071,
+      "sha256": "83779785f93f0572b6ff6286eb8a41be41bb60d6ddf88c858bd4deb94d8f6814"
+    },
+    {
+      "path": "assets/plants/potatomine-idle-v1-8f/potatomine-bounce-blink-8f-v1.png",
+      "bytes": 1474256,
+      "sha256": "76e8f038fbcadd8a3f1625d2655b2b2945a15499256841d7c39b2b568a596a48"
+    },
+    {
+      "path": "assets/plants/repeater-idle-v1-8f/pose-guide-repeater-8f.png",
+      "bytes": 135755,
+      "sha256": "d33d7c61a80ebb5a0100e0a46b026e9742350450c5a3f99719dad68ce95d06fe"
+    },
+    {
+      "path": "assets/plants/repeater-idle-v1-8f/repeater-sway-blink-8f-v1-matted.png",
+      "bytes": 1075807,
+      "sha256": "c8e1fd422fb9dfed0fbe5b1666a668c199b6cb5020a711b0ed043e84074b0ced"
+    },
+    {
+      "path": "assets/plants/repeater-idle-v1-8f/repeater-sway-blink-8f-v1.png",
+      "bytes": 1711064,
+      "sha256": "7a85afe2939a61e796713fa1e1451da136505e4edbc4816cefb6fb7b257b1339"
+    },
+    {
+      "path": "assets/plants/repeater-idle-v1-8f/repeater-sway-blink-8f-v2.png",
+      "bytes": 1027763,
+      "sha256": "42f771d825c99ee84c9927ccd675f4edaa8773dd5471cc2521bd2425becf3e94"
+    },
+    {
+      "path": "assets/plants/snowpea-idle-v1-8f/pose-guide-snowpea-8f.png",
+      "bytes": 180849,
+      "sha256": "b472b11488e77fa2a7354f433f34cf0bd619351f8283f9b7621b939fde8528e7"
+    },
+    {
+      "path": "assets/plants/snowpea-idle-v1-8f/snowpea-sway-blink-8f-v1-matted.png",
+      "bytes": 1713797,
+      "sha256": "3ca1e4bb0649f8f18b29ce626230a1f1486022aa1093635a51fdff6cddb78b8c"
+    },
+    {
+      "path": "assets/plants/snowpea-idle-v1-8f/snowpea-sway-blink-8f-v1.png",
+      "bytes": 1546130,
+      "sha256": "1cf78f5c7428809b18d8533bf7e6e7e099b453abdda861b776d2b3a432711e01"
+    },
+    {
+      "path": "assets/plants/sunflower-design-v1.png",
+      "bytes": 954349,
+      "sha256": "bfaf52fe59238e97168d56fc904467204658c2e9dbf9eed59629d95a2f86b1cc"
+    },
+    {
+      "path": "assets/plants/sunflower-idle-v1-8f/pose-guide-sunflower-8f.png",
+      "bytes": 23450,
+      "sha256": "4f14389ddf30d23d056748ceb849885a8287209e57503a4d3baf553a4009ec52"
+    },
+    {
+      "path": "assets/plants/sunflower-idle-v1-8f/sunflower-sway-blink-8f-v1-matted.png",
+      "bytes": 2329899,
+      "sha256": "9c45421de5abb064a855e2ee88a8470b81de69605c8d947a3bc0f200430ef5f9"
+    },
+    {
+      "path": "assets/plants/sunflower-idle-v1-8f/sunflower-sway-blink-8f-v1.png",
+      "bytes": 1977677,
+      "sha256": "88c0da384bbb0c84f9773b6697957418502977db3d8d565ea2623fa90617c822"
+    },
+    {
+      "path": "assets/plants/wallnut-idle-v1-8f/pose-guide-wallnut-8f.png",
+      "bytes": 390774,
+      "sha256": "3d91b1b7989a59db433b5fc1cad66c944febfa8e7dd6e971a8af5c8a18283b9d"
+    },
+    {
+      "path": "assets/plants/wallnut-idle-v1-8f/wallnut-rolypoly-blink-8f-v1-matted.png",
+      "bytes": 2273590,
+      "sha256": "7b040e9dc5159d2b44a81f25b7a0002224878b27953c0b88622255b5c2eb4754"
+    },
+    {
+      "path": "assets/plants/wallnut-idle-v1-8f/wallnut-rolypoly-blink-8f-v1.png",
+      "bytes": 1999330,
+      "sha256": "916ea436e9f46c93a75c1de9f5ca493db74a733f1cedda2dcd21c2e59a274eeb"
+    },
+    {
+      "path": "assets/states/2026-10-19/newspaper-angry.png",
+      "bytes": 1062435,
+      "sha256": "93173fa02c286e54cf61485ebffbfb42f5e0bfaf07d112b9829d7c93dd905a4d"
+    },
+    {
+      "path": "assets/states/2026-10-19/polevault-landed.png",
+      "bytes": 877142,
+      "sha256": "48602bd5527228b74f4e684796ef2f1165f32a884f6e749e2cbf777194e9781d"
+    },
+    {
+      "path": "assets/states/2026-10-19/wallnut-cracked.png",
+      "bytes": 1177648,
+      "sha256": "d3a3738cdce30ee8386b7abb5e28689b79e3c110ca43830605f38c53e75f6d20"
+    },
+    {
+      "path": "assets/states/2026-10-19/wallnut-critical.png",
+      "bytes": 1252841,
+      "sha256": "e0b196dfe9cec5e36e34634e19a5778d5268cc153425ed38ce14226ef24bb88c"
+    },
+    {
+      "path": "assets/tools/mower-idle-v1-8f/mower-idle-spin-8f-v1-matted.png",
+      "bytes": 1114762,
+      "sha256": "e19e3f786df25c6d90325002d6a7ed6324d5a8736dfd8411a3e320bdcdbf85a0"
+    },
+    {
+      "path": "assets/tools/mower-idle-v1-8f/mower-idle-spin-8f-v1.png",
+      "bytes": 958594,
+      "sha256": "c1758c192518f8b43052fb3dabdf93baa9baf95a49aed45c31136a6001e7bb63"
+    },
+    {
+      "path": "assets/tools/mower-idle-v1-8f/pose-guide-mower-8f.png",
+      "bytes": 45967,
+      "sha256": "d862d5ab38605560ddb04728d3c89fdd8da3019166920127b08b7b15121a838b"
+    },
+    {
+      "path": "assets/tools/shovel-idle-v1-8f/pose-guide-shovel-8f.png",
+      "bytes": 127714,
+      "sha256": "f7f66f01627980727d7e43968c4e0558e47531ce733adbaf6fd89d5b01f607c0"
+    },
+    {
+      "path": "assets/tools/shovel-idle-v1-8f/shovel-wobble-8f-v1-matted.png",
+      "bytes": 528458,
+      "sha256": "6b92caeedcc0b9046b7c3e7ab87d31cf117269672bbd0b283fe07181581923e6"
+    },
+    {
+      "path": "assets/tools/shovel-idle-v1-8f/shovel-wobble-8f-v1-r1.png",
+      "bytes": 554838,
+      "sha256": "7871d83485a5b51b22fe2e730d16bf59aa410dbfb6c59e45eb1b20551021632d"
+    },
+    {
+      "path": "assets/tools/shovel-idle-v1-8f/shovel-wobble-8f-v1.png",
+      "bytes": 1313309,
+      "sha256": "99d631fba27418b508a409c6ab5e71040f2478ed2088d011170f77c3b0925832"
+    },
+    {
+      "path": "assets/zombies/2026-10-19/buckethead/static.png",
+      "bytes": 1215416,
+      "sha256": "77328be85837bf6d23404a8247be1bce1cfd60b943b135d321c75336dcbcba06"
+    },
+    {
+      "path": "assets/zombies/2026-10-19/buckethead/walk.png",
+      "bytes": 1530365,
+      "sha256": "62e631792ee6c8252b0563b246ce2772d697b4408d65721a5f474759906e5426"
+    },
+    {
+      "path": "assets/zombies/2026-10-19/conehead/static.png",
+      "bytes": 1017000,
+      "sha256": "a4fd9aa8ae66f30c1432c9baf930e8240264e3c4bd653be6fa5105ee3e0bead4"
+    },
+    {
+      "path": "assets/zombies/2026-10-19/conehead/walk.png",
+      "bytes": 1520461,
+      "sha256": "1b4e6bb56261bcdf47c82f96fa21153dbfb85eb3889ce41d1a3a5bfb48626ea7"
+    },
+    {
+      "path": "assets/zombies/2026-10-19/flag/static.png",
+      "bytes": 1227687,
+      "sha256": "79ff7a069ea3f71f12d2dc29ff2126feb71ab53b8636edccc695cf7e90a80724"
+    },
+    {
+      "path": "assets/zombies/2026-10-19/flag/walk.png",
+      "bytes": 1596807,
+      "sha256": "14a8a687a8027d2ee5cd1e05afc5c90fee23fe8d17dd318661eff72dcb4eadea"
+    },
+    {
+      "path": "assets/zombies/2026-10-19/football/static.png",
+      "bytes": 1206567,
+      "sha256": "76a96f1651ab97793dbf0cdc682cc1e951df718796c16a1b1a40c1f7ce477274"
+    },
+    {
+      "path": "assets/zombies/2026-10-19/football/walk.png",
+      "bytes": 1381131,
+      "sha256": "2ca1614a343e9bce3348389d601aa62d4ad174aa48faeef7dd268750986ac5eb"
+    },
+    {
+      "path": "assets/zombies/2026-10-19/newspaper/static.png",
+      "bytes": 1167224,
+      "sha256": "5ed8cf11fe25a71640b73d97001671d6d5defdbb9b3573d38e338594d534ff16"
+    },
+    {
+      "path": "assets/zombies/2026-10-19/newspaper/walk.png",
+      "bytes": 1630115,
+      "sha256": "91a95745e2fd6ca5013a7ff0f54ec6bce28968aee75ff974b4d3dfeed0c8a2a9"
+    },
+    {
+      "path": "assets/zombies/2026-10-19/normal/static.png",
+      "bytes": 1057719,
+      "sha256": "e14534b0aa761e8a7cb5739766e800b4246622280c74b617b433721567de91af"
+    },
+    {
+      "path": "assets/zombies/2026-10-19/normal/walk.png",
+      "bytes": 1634043,
+      "sha256": "a71fdcbd871247bbe7f5fed6e31f6272cbb5bc71e8b6c57b17f8b636c4fdc07b"
+    },
+    {
+      "path": "assets/zombies/2026-10-19/polevault/static.png",
+      "bytes": 1008082,
+      "sha256": "30f765881aa2a5c6f041e036e0aab061905481feedea87cf3386522b9c13f7aa"
+    },
+    {
+      "path": "assets/zombies/2026-10-19/polevault/walk.png",
+      "bytes": 1387345,
+      "sha256": "af6beab9dc1997f30c20844f835569d1ca38101203edba17d03f0b337fc6ef55"
+    }
+  ]
+}

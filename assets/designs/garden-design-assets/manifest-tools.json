@@ -1,0 +1,62 @@
+{
+  "status": "complete",
+  "assets": [
+    {
+      "key": "mower",
+      "output": "mower-design-v1.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "opaque_bounds": [
+        67,
+        126,
+        1220,
+        1083
+      ],
+      "transparent_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "tool_mode": "AI image generation",
+      "prompt_path": "mower-design-v1.prompt.txt",
+      "visual_review": "Single complete object, correct orientation, matching rounded painterly 3D style, no text, no baked floor shadow; transparent margins present but smaller than requested 12% on some sides."
+    },
+    {
+      "key": "shovel",
+      "output": "shovel-design-v1.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "opaque_bounds": [
+        219,
+        79,
+        1167,
+        1171
+      ],
+      "transparent_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "tool_mode": "AI image generation",
+      "prompt_path": "shovel-design-v1.prompt.txt",
+      "visual_review": "Single complete object, correct orientation, matching rounded painterly 3D style, no text, no baked floor shadow; transparent margins present but smaller than requested 12% on some sides."
+    }
+  ],
+  "scope": "Static single-object designs only; no sprite sheets and no game code changes."
+}

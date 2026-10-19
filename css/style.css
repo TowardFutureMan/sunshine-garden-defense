@@ -1,0 +1,257 @@
+/* ============ 阳光庭院塔防 Web 版 - 界面样式 ============
+   设计语言与 Canvas 内一致: 蜂蜜木 / 呢绒 / 陶土 / 阳光金
+   ==================================================== */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html, body { height: 100%; }
+
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(ellipse at 50% 18%, #4a6b34 0%, #2c4020 52%, #1a2612 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 18px 12px;
+  font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans SC", sans-serif;
+  color: #f2e8cf;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 外框: 厚实木边, 四角钉帽 */
+#frame {
+  position: relative;
+  width: min(1000px, 96vw);
+  border: 7px solid #8a5f33;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow:
+    0 0 0 3px #57371a,
+    0 22px 64px rgba(0, 0, 0, 0.62),
+    inset 0 0 0 1px rgba(255, 220, 150, 0.18);
+  background: #22331a;
+}
+#frame::before, #frame::after {
+  content: "";
+  position: absolute;
+  top: 8px; width: 9px; height: 9px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #e8c88a, #8a5f33 70%);
+  box-shadow: 0 1px 2px rgba(0,0,0,.5);
+  z-index: 5;
+}
+#frame::before { left: 10px; }
+#frame::after { right: 10px; }
+
+canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+canvas:focus-visible {
+  outline: 3px solid #ffd23f;
+  outline-offset: -3px;
+}
+
+.hint {
+  font-size: 13px;
+  letter-spacing: 0.02em;
+  color: #cfe0b4;
+  opacity: 0.85;
+  text-align: center;
+}
+
+/* ---------- 覆盖层 ---------- */
+#overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:
+    radial-gradient(ellipse at 50% 40%, rgba(20,32,14,.55), rgba(12,20,10,.82));
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  z-index: 10;
+  padding: 16px;
+}
+#overlay.hidden { display: none; }
+
+/* 木牌面板 */
+.panel {
+  position: relative;
+  background: linear-gradient(165deg, #f6e9c6 0%, #eed9a4 65%, #e2c68c 100%);
+  border: 5px solid #8a5f33;
+  border-radius: 20px;
+  box-shadow:
+    0 18px 52px rgba(0, 0, 0, 0.55),
+    inset 0 2px 0 rgba(255, 255, 255, 0.75),
+    inset 0 -3px 0 rgba(120, 84, 40, 0.25);
+  padding: 34px 46px 28px;
+  text-align: center;
+  color: #4a3626;
+  max-width: 620px;
+  animation: pop 0.28s cubic-bezier(0.2, 1.4, 0.4, 1);
+}
+/* 内圈缝线 */
+.panel::before {
+  content: "";
+  position: absolute;
+  inset: 7px;
+  border: 1.6px dashed rgba(122, 90, 50, 0.55);
+  border-radius: 13px;
+  pointer-events: none;
+}
+/* 顶部绳挂 + 木珠 */
+.panel::after {
+  content: "";
+  position: absolute;
+  left: 50%; top: -9px;
+  width: 12px; height: 12px;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #e8c88a, #8a5f33 70%);
+  box-shadow: 0 1px 3px rgba(0,0,0,.45);
+}
+@keyframes pop {
+  from { transform: scale(0.86) translateY(8px); opacity: 0; }
+  to   { transform: scale(1) translateY(0); opacity: 1; }
+}
+
+/* 标题: 阳光渐变 + 多层雕刻投影 */
+.panel h1 {
+  font-size: 48px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  background: linear-gradient(180deg, #a8da6e 0%, #5da83f 55%, #3f7a2a 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  filter: drop-shadow(0 2px 0 rgba(63,122,42,.9)) drop-shadow(0 4px 0 rgba(63,122,42,.45)) drop-shadow(0 9px 16px rgba(0,0,0,.28));
+  margin-bottom: 4px;
+}
+.panel h2 {
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  margin-bottom: 8px;
+  color: #3f7a2a;
+  text-shadow: 0 2px 0 rgba(63,122,42,.35), 0 5px 12px rgba(0,0,0,.2);
+}
+.panel h2.bad { color: #b3312a; text-shadow: 0 2px 0 rgba(179,49,42,.35), 0 5px 12px rgba(0,0,0,.2); }
+.panel h2.good { color: #3f7a2a; }
+.panel .sub { font-size: 14px; font-weight: 600; color: #8a744e; margin-bottom: 20px; letter-spacing: .04em; }
+
+/* 难度选择: 陶土筹码 */
+.seg {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+.seg button {
+  border: 2px solid #b08c52;
+  background: linear-gradient(#f4e6c0, #e2c68c);
+  color: #6b4f26;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 9px 24px;
+  border-radius: 999px;
+  cursor: pointer;
+  box-shadow: 0 3px 0 rgba(138, 107, 62, .55), inset 0 1px 0 rgba(255,255,255,.7);
+  transition: transform 0.12s, box-shadow 0.12s, background 0.15s;
+}
+.seg button:hover { transform: translateY(-1px); }
+.seg button:active { transform: translateY(2px); box-shadow: 0 1px 0 rgba(138,107,62,.55); }
+.seg button.on {
+  background: linear-gradient(#9fdc6e, #5da83f);
+  border-color: #3f7a2a;
+  color: #fff;
+  box-shadow: 0 3px 0 #3f7a2a, inset 0 1px 0 rgba(255,255,255,.35);
+}
+
+.panel button {
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+  font-weight: 800;
+  letter-spacing: .06em;
+}
+/* 主按钮: 种子袋绿, 厚底边, 按下陷落 */
+.panel .primary, .panel .row button {
+  font-size: 18px;
+  padding: 13px 36px;
+  border-radius: 14px;
+  color: #fff;
+  background: linear-gradient(#a3e06f, #5da83f);
+  border: 2px solid #3f7a2a;
+  box-shadow: 0 5px 0 #3f7a2a, 0 10px 18px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255,255,255,.4);
+  transition: transform 0.12s, box-shadow 0.12s;
+  margin: 4px 6px;
+  text-shadow: 0 1px 0 rgba(30,60,20,.4);
+}
+.panel .primary:hover, .panel .row button:hover { transform: translateY(-2px); box-shadow: 0 7px 0 #3f7a2a, 0 12px 22px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255,255,255,.4); }
+.panel .primary:active, .panel .row button:active { transform: translateY(3px); box-shadow: 0 2px 0 #3f7a2a; }
+
+.panel .row button:not(.primary) {
+  background: linear-gradient(#e8d9a8, #cdb47e);
+  border-color: #8a6b3a;
+  color: #4a3319;
+  box-shadow: 0 5px 0 #8a6b3a, 0 10px 18px rgba(0, 0, 0, 0.18), inset 0 1px 0 rgba(255,255,255,.5);
+  text-shadow: none;
+}
+.panel .row button:not(.primary):hover { box-shadow: 0 7px 0 #8a6b3a, 0 12px 22px rgba(0,0,0,.22), inset 0 1px 0 rgba(255,255,255,.5); }
+.panel .row button:not(.primary):active { box-shadow: 0 2px 0 #8a6b3a; }
+
+/* 键盘焦点清晰可见 */
+.seg button:focus-visible, .panel button:focus-visible {
+  outline: 3px solid #ffd23f;
+  outline-offset: 3px;
+}
+
+.tips {
+  margin-top: 22px;
+  font-size: 12.5px;
+  font-weight: 600;
+  line-height: 1.95;
+  color: #8a744e;
+}
+.tips p { margin: 0; }
+
+/* 结算数据: 木尺量一行 */
+.stats {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  justify-content: center;
+  margin: 4px 0 22px;
+  padding: 10px 22px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #5d4a28;
+  background: rgba(122, 90, 50, .12);
+  border: 1.6px dashed rgba(122, 90, 50, .5);
+  border-radius: 12px;
+}
+.stats b { color: #3f7a2a; font-weight: 900; }
+
+.row { display: flex; justify-content: center; flex-wrap: wrap; }
+
+@media (max-width: 640px) {
+  .panel { padding: 22px 20px; }
+  .panel h1 { font-size: 32px; }
+  .panel h2 { font-size: 22px; }
+  .hint { font-size: 11px; }
+}
+
+/* 尊重系统减少动态效果 */
+@media (prefers-reduced-motion: reduce) {
+  .panel { animation: none; }
+  .seg button, .panel .primary, .panel .row button { transition: none; }
+}

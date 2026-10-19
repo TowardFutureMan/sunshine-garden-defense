@@ -1,0 +1,34 @@
+{
+  "frameCount": 8,
+  "uniqueFrames": 8,
+  "allSubjectsInsideCells": true,
+  "adjacentPixelChange": [
+    4.59296875,
+    2.8640364583333335,
+    3.093033854166667,
+    3.2708333333333335,
+    3.078463541666667,
+    2.7826822916666667,
+    3.9783723958333335,
+    2.2793229166666666
+  ],
+  "maxAdjacentPixelChange": 4.59296875,
+  "loopSeamPixelChange": 2.2793229166666666,
+  "actualSize": [
+    1774,
+    887
+  ],
+  "crossfade": false,
+  "proceduralBreathing": false,
+  "errors": [],
+  "inspectedFrameLabels": [
+    "帧 01 / 8",
+    "帧 02 / 8",
+    "帧 03 / 8",
+    "帧 04 / 8",
+    "帧 05 / 8",
+    "帧 06 / 8",
+    "帧 07 / 8",
+    "帧 08 / 8"
+  ]
+}

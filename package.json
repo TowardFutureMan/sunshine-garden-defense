@@ -1,0 +1,14 @@
+{
+  "name": "sunshine-garden-defense",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A browser garden tower-defense game with complete design assets and sprite sheets.",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test test/*.test.cjs",
+    "start": "python3 -m http.server 8080 --bind 127.0.0.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

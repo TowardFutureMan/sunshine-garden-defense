@@ -1,0 +1,180 @@
+{
+  "image": "wallnut-rolypoly-blink-8f-v1-matted.png",
+  "width": 1536,
+  "height": 1024,
+  "columns": 4,
+  "rows": 2,
+  "frames": [
+    {
+      "index": 0,
+      "pose": "中间睁眼",
+      "rect": [
+        62,
+        78,
+        315,
+        392
+      ],
+      "pivot": [
+        220.3,
+        470
+      ],
+      "visibleBounds": [
+        62,
+        78,
+        377,
+        470
+      ]
+    },
+    {
+      "index": 1,
+      "pose": "左半轻倾",
+      "rect": [
+        428,
+        81,
+        317,
+        387
+      ],
+      "pivot": [
+        617.0,
+        468
+      ],
+      "visibleBounds": [
+        428,
+        81,
+        745,
+        468
+      ]
+    },
+    {
+      "index": 2,
+      "pose": "左极限倾斜",
+      "rect": [
+        793,
+        81,
+        317,
+        386
+      ],
+      "pivot": [
+        971.9,
+        467
+      ],
+      "visibleBounds": [
+        793,
+        81,
+        1110,
+        467
+      ]
+    },
+    {
+      "index": 3,
+      "pose": "回中睁眼(计划半闭)",
+      "rect": [
+        1162,
+        79,
+        314,
+        390
+      ],
+      "pivot": [
+        1324.3,
+        469
+      ],
+      "visibleBounds": [
+        1162,
+        79,
+        1476,
+        469
+      ]
+    },
+    {
+      "index": 4,
+      "pose": "中间wink(计划全闭)",
+      "rect": [
+        62,
+        586,
+        314,
+        395
+      ],
+      "pivot": [
+        216.4,
+        981
+      ],
+      "visibleBounds": [
+        62,
+        586,
+        376,
+        981
+      ]
+    },
+    {
+      "index": 5,
+      "pose": "右倾全闭(计划半睁)",
+      "rect": [
+        428,
+        586,
+        315,
+        396
+      ],
+      "pivot": [
+        585.8,
+        982
+      ],
+      "visibleBounds": [
+        428,
+        586,
+        743,
+        982
+      ]
+    },
+    {
+      "index": 6,
+      "pose": "右极限睁眼",
+      "rect": [
+        798,
+        593,
+        312,
+        384
+      ],
+      "pivot": [
+        976.6,
+        977
+      ],
+      "visibleBounds": [
+        798,
+        593,
+        1110,
+        977
+      ]
+    },
+    {
+      "index": 7,
+      "pose": "回中衔接",
+      "rect": [
+        1161,
+        589,
+        313,
+        393
+      ],
+      "pivot": [
+        1319.8,
+        982
+      ],
+      "visibleBounds": [
+        1161,
+        589,
+        1474,
+        982
+      ]
+    }
+  ],
+  "renderScale": 0.189,
+  "playback": {
+    "fps": 7,
+    "mode": "hard-cut-no-crossfade",
+    "durationSeconds": 1.1429
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "note": "8帧按名义4列×2行等格(384x512)归属，rect/pivot 基于去背后真实 alpha(>128)计算；pivot 为底部接地中心。原始带背景图见 wallnut-rolypoly-blink-8f-v1.png。眼睑时序偏差：第4帧生成结果为睁眼(计划半闭)，第5帧为单眼半闭 wink(计划双眼全闭)，第6帧为双眼全闭(计划半睁)。"
+}

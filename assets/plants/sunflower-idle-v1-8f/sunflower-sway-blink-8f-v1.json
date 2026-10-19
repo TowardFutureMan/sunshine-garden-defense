@@ -1,0 +1,180 @@
+{
+  "image": "sunflower-sway-blink-8f-v1-matted.png",
+  "width": 1536,
+  "height": 1024,
+  "columns": 4,
+  "rows": 2,
+  "frames": [
+    {
+      "index": 0,
+      "pose": "中间睁眼",
+      "rect": [
+        46,
+        68,
+        321,
+        417
+      ],
+      "pivot": [
+        193.7,
+        484
+      ],
+      "visibleBounds": [
+        46,
+        68,
+        367,
+        485
+      ]
+    },
+    {
+      "index": 1,
+      "pose": "左半睁眼",
+      "rect": [
+        415,
+        73,
+        322,
+        411
+      ],
+      "pivot": [
+        563.6,
+        483
+      ],
+      "visibleBounds": [
+        415,
+        73,
+        737,
+        484
+      ]
+    },
+    {
+      "index": 2,
+      "pose": "左极限(闭笑)",
+      "rect": [
+        776,
+        76,
+        376,
+        410
+      ],
+      "pivot": [
+        933.8,
+        485
+      ],
+      "visibleBounds": [
+        776,
+        76,
+        1152,
+        486
+      ]
+    },
+    {
+      "index": 3,
+      "pose": "回中睁眼",
+      "rect": [
+        1152,
+        35,
+        320,
+        451
+      ],
+      "pivot": [
+        1300.0,
+        485
+      ],
+      "visibleBounds": [
+        1152,
+        35,
+        1472,
+        486
+      ]
+    },
+    {
+      "index": 4,
+      "pose": "中间闭眼",
+      "rect": [
+        43,
+        566,
+        320,
+        414
+      ],
+      "pivot": [
+        197.2,
+        979
+      ],
+      "visibleBounds": [
+        43,
+        566,
+        363,
+        980
+      ]
+    },
+    {
+      "index": 5,
+      "pose": "右半半睁眼",
+      "rect": [
+        400,
+        575,
+        321,
+        407
+      ],
+      "pivot": [
+        557.8,
+        981
+      ],
+      "visibleBounds": [
+        400,
+        575,
+        721,
+        982
+      ]
+    },
+    {
+      "index": 6,
+      "pose": "右极限睁眼",
+      "rect": [
+        782,
+        577,
+        370,
+        447
+      ],
+      "pivot": [
+        929.0,
+        1023
+      ],
+      "visibleBounds": [
+        782,
+        577,
+        1152,
+        1024
+      ]
+    },
+    {
+      "index": 7,
+      "pose": "回中睁眼",
+      "rect": [
+        1152,
+        577,
+        314,
+        408
+      ],
+      "pivot": [
+        1299.4,
+        984
+      ],
+      "visibleBounds": [
+        1152,
+        577,
+        1466,
+        985
+      ]
+    }
+  ],
+  "renderScale": 0.19,
+  "playback": {
+    "fps": 7,
+    "mode": "hard-cut-no-crossfade",
+    "durationSeconds": 1.1429
+  },
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "note": "8帧实际角色区域裁切(生成器未严格等格排版)；本文件基于去背后 alpha 计算，pivot 为根部接地锚点。原带背景图为 sunflower-sway-blink-8f-v1.png。"
+}

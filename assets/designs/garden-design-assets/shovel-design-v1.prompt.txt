@@ -1,0 +1,10 @@
+Use case: stylized-concept
+Asset type: single transparent PNG garden-tool game design, NOT sprite sheet.
+Primary request: Design one clear, friendly garden shovel for the same lawn-defense game as the supplied Peashooter style reference. The attached image is only a visual STYLE reference. Do not include any plant.
+Subject: one complete shovel with exactly one broad blue-gray steel blade, one warm honey-brown wooden shaft, and one rounded D-shaped wooden hand grip. Blade points toward LOWER LEFT; grip toward UPPER RIGHT. Short sturdy proportions, generous broad blade with a shallow center ridge, visible softly beveled cutting edge and small warm-metal collar. D grip with an actual empty hole; single connected tool. No face or eyes.
+Style/medium: rounded polished 3D game illustration, softly hand-painted matte materials, tactile painterly roughness, gentle ambient occlusion where pieces join, warm and charming rather than photoreal. Match reference's material richness and soft modeled edges. Clear silhouette readable when reduced to a small UI icon.
+Camera: slight elevated three-quarter view, enough front face of blade visible, no extreme perspective.
+Lighting: soft warm upper-left sunshine, restrained highlight on blue-gray steel.
+Composition: one isolated complete tool diagonally centered, square about 1024x1024, subject occupies only 70–75% of canvas overall; leave at least 12% clear transparent safe margin on all sides. No cropping.
+Background: genuinely transparent alpha, no floor, no shadow underneath, no pedestal, no scenery, no backdrop, no painted checkerboard.
+Avoid: text, logos, watermark, labels, borders, multiple views, extra tools, scattered objects, thick black outlines, plants, arms or hands.

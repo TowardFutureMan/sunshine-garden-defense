@@ -1,0 +1,170 @@
+{
+  "mode": "AI image generation",
+  "styleReference": "peashooter-design-v2.png",
+  "status": "静态设计资产已接入当前游戏；选卡和种植预览使用静态图，场上豌豆保留原有连续待机。",
+  "assets": [
+    {
+      "name": "向日葵",
+      "file": "sunflower-design-v1.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "visibleBounds": [
+        231,
+        100,
+        1086,
+        1204
+      ]
+    },
+    {
+      "name": "豌豆射手",
+      "file": "peashooter-design-v2.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "visibleBounds": [
+        106,
+        107,
+        1167,
+        1157
+      ]
+    },
+    {
+      "name": "坚果",
+      "file": "wallnut-design-v1.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "visibleBounds": [
+        213,
+        142,
+        1058,
+        1134
+      ]
+    },
+    {
+      "name": "寒冰射手",
+      "file": "snowpea-design-v1.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "visibleBounds": [
+        79,
+        64,
+        1201,
+        1175
+      ]
+    },
+    {
+      "name": "樱桃炸弹",
+      "file": "cherrybomb-design-v1.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "visibleBounds": [
+        84,
+        136,
+        1208,
+        1110
+      ]
+    },
+    {
+      "name": "双发射手",
+      "file": "repeater-design-v1.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "visibleBounds": [
+        107,
+        98,
+        1190,
+        1170
+      ]
+    },
+    {
+      "name": "土豆雷",
+      "file": "potatomine-design-v1.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "visibleBounds": [
+        118,
+        182,
+        1162,
+        1091
+      ]
+    },
+    {
+      "name": "草坪小推车（割草机）",
+      "file": "mower-design-v1.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "visibleBounds": [
+        66,
+        125,
+        1221,
+        1084
+      ]
+    },
+    {
+      "name": "铲子",
+      "file": "shovel-design-v1.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "alpha": [
+        0,
+        255
+      ],
+      "visibleBounds": [
+        218,
+        78,
+        1168,
+        1171
+      ]
+    }
+  ],
+  "integration": "js/design-art.js"
+}
